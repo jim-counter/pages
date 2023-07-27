@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Papa from 'papaparse';
 
+const MAX_RESULTS = 10; // Maximum number of search results to display
+
 const SearchRewardsCSV: React.FC = () => {
     const [headers, setHeaders] = useState<string[]>([]);
     const [data, setData] = useState<string[][]>([]);
@@ -27,7 +29,7 @@ const SearchRewardsCSV: React.FC = () => {
     const handleSearch = () => {
         const matches = data.filter(row => 
             row.slice(0, 2).some(cell => cell.toLowerCase().includes(searchTerm.toLowerCase()))  // Only consider the first two cells
-        );
+        ).slice(0, MAX_RESULTS);
         setResults(matches);
     };
 
