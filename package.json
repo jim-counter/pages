@@ -1,6 +1,6 @@
 {
-  "name": "pages",
   "homepage": "https://jim-counter.github.io/pages",
+  "name": "pages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
