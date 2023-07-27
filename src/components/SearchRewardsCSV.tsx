@@ -8,7 +8,7 @@ const SearchRewardsCSV: React.FC = () => {
     const [results, setResults] = useState<string[][]>([]);
 
     useEffect(() => {
-        fetch('/data/rewards.csv')
+        fetch('/pages/data/rewards.csv')
             .then((response) => response.text())
             .then((csvData) => {
                 Papa.parse(csvData, {
