@@ -13,13 +13,13 @@ const Header: React.FC = () => {
             </Link>
           </div>
           <div className="flex space-x-4">
-            <Link to="/" className="py-5 px-3 text-white hover:text-gray-900">
+            <Link to="/" className="py-5 px-3 text-white hover:text-[#DE67E4]">
               Home
             </Link>
-            <Link to="/about" className="py-5 px-3 text-white hover:text-gray-900">
+            <Link to="/about" className="py-5 px-3 text-white hover:text-[#DE67E4]">
               About
             </Link>
-            <Link to="/search-rewards-csv" className="py-5 px-3 text-white hover:text-gray-900">
+            <Link to="/search-rewards-csv" className="py-5 px-3 text-white hover:text-[#DE67E4]">
               Search Rewards
             </Link>
           </div>
