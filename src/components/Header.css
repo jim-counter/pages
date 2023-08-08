@@ -1,0 +1,46 @@
+/* Header Container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  /* Logo and Links */
+  .header-container a {
+    text-decoration: none;
+    color: #646cff;
+    margin-right: 15px;
+    font-weight: 500;
+  }
+  
+  /* Mobile Menu Button */
+  .header-container .menu-button {
+    display: none;
+  }
+  
+  /* Mobile Menu */
+  .header-container .mobile-menu {
+    display: none;
+  }
+  
+  /* Media Query for Mobile */
+  @media screen and (max-width: 768px) {
+    .header-container .menu-button {
+      display: block;
+    }
+  
+    .header-container .mobile-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  /* Hover Effects */
+  .header-container a:hover {
+    color: #535bf2;
+  }
+  
