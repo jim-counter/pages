@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
-import SearchRewardsCSV from './components/SearchRewardsCSV';
+import SearchRewardsCSV from './components/CheckTestnetCSV';
 
 
 function App() {

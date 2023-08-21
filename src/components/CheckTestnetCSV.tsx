@@ -4,7 +4,7 @@ import { FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
 
 const MAX_RESULTS = 10; // Maximum number of search results to display
 
-const SearchRewardsCSV: React.FC = () => {
+const CheckTestnetCSV: React.FC = () => {
     const [headers, setHeaders] = useState<string[]>([]);
     const [data, setData] = useState<string[][]>([]);
     const [searchTerm, setSearchTerm] = useState<string>('');
@@ -96,4 +96,4 @@ const SearchRewardsCSV: React.FC = () => {
     );
 }
 
-export default SearchRewardsCSV;
+export default CheckTestnetCSV;
